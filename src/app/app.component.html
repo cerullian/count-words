@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row">
+      <div class="col-xs-12">
+          <h2>Desafio 1 - Número de palavras</h2>
+          <hr>
+          <label>Sentence</label>
+          <input type="text" class="form-control" [(ngModel)]="sentence">
+          <button class="btn btn-primary" (click)="onCountWords()">Count words</button> 
+          <p>{{ 'Words: ' + countWords }}</p>
+      </div>
+  </div>
+</div>
